@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="favGlow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#efe6d3" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#efe6d3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="favBulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff8e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="200" height="200" rx="34" fill="#0a0a0b"/>
+  <g transform="translate(20,7) scale(0.8)">
+    <ellipse cx="100" cy="74" rx="88" ry="58" fill="url(#favGlow)"/>
+    <circle cx="100" cy="20" r="24" fill="url(#favBulbGlow)"/>
+    <g fill="none" stroke="#efe6d3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M100,2 L100,9" stroke-width="3.5"/>
+      <path d="M93,9 L107,9 L113,27 L87,27 Z" stroke-width="3.5"/>
+      <ellipse cx="100" cy="27" rx="13" ry="3.5" stroke-width="3.5"/>
+
+
+      <path d="M100,68 L22,128 L178,128 Z"/>
+      <rect x="38" y="128" width="124" height="98"/>
+      <path d="M26,226 L174,226"/>
+    <rect x="84" y="140" width="32" height="86"/>
+    <rect x="89" y="146" width="6" height="6" stroke-width="2.5"/>
+    <rect x="89" y="163" width="6" height="6" stroke-width="2.5"/>
+    <rect x="89" y="181" width="6" height="6" stroke-width="2.5"/>
+    <rect x="89" y="199" width="6" height="6" stroke-width="2.5"/>
+    <rect x="89" y="217" width="6" height="6" stroke-width="2.5"/>
+    <rect x="105" y="146" width="6" height="6" stroke-width="2.5"/>
+    <rect x="105" y="163" width="6" height="6" stroke-width="2.5"/>
+    <rect x="105" y="181" width="6" height="6" stroke-width="2.5"/>
+    <rect x="105" y="199" width="6" height="6" stroke-width="2.5"/>
+    <rect x="105" y="217" width="6" height="6" stroke-width="2.5"/>
+    <path d="M98,155 L102,155 M98,172 L102,172 M98,190 L102,190 M98,208 L102,208" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>
